@@ -112,8 +112,8 @@ public class BasicOpMode_Iterative extends OpMode
         // - This uses basic math to combine motions and is easier to drive straight.
         //double drive = -gamepad1.left_stick_y;
         //double turn  =  gamepad1.right_stick_x;
-        leftPower    = 20 ;
-        rightPower   = 20 ;
+        leftPower    = 10 ;
+        rightPower   = 10 ;
 
         // Tank Mode uses one stick to control each wheel.
         // - This requires no math, but it is hard to drive forward slowly and keep straight.
